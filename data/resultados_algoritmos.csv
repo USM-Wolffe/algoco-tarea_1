@@ -1,0 +1,97 @@
+Selection Sort,100000,22720 ms
+Quicksort,100000,25 ms
+Mergesort,100000,44 ms
+Sort de menor a mayor,100000,63 ms
+Sort de mayor a menor,100000,79 ms
+Multiplicación tradicional,100,26 ms
+Multiplicación optimizada,100,36 ms
+Multiplicación Strassen,100,733 ms
+Selection Sort,100000,22404 ms
+Quicksort,100000,29 ms
+Mergesort,100000,43 ms
+Sort de menor a mayor,100000,69 ms
+Sort de mayor a menor,100000,79 ms
+Multiplicación tradicional,100,27 ms
+Multiplicación optimizada,100,27 ms
+Multiplicación Strassen,100,615 ms
+-------------------Prueba 0-------------------
+Selection Sort,100000,23284 ms
+Quicksort,100000,30 ms
+Mergesort,100000,45 ms
+Sort de menor a mayor,100000,68 ms
+Sort de mayor a menor,100000,76 ms
+Multiplicación tradicional,100,31 ms
+Multiplicación optimizada,100,32 ms
+Multiplicación Strassen,100,628 ms
+-------------------Prueba 1-------------------
+Selection Sort,100000,22541 ms
+Quicksort,100000,27 ms
+Mergesort,100000,43 ms
+Sort de menor a mayor,100000,69 ms
+Sort de mayor a menor,100000,74 ms
+Multiplicación tradicional,100,31 ms
+Multiplicación optimizada,100,39 ms
+Multiplicación Strassen,100,764 ms
+-------------------Prueba 1-------------------
+Selection Sort,100000,22873 ms
+Quicksort,100000,28 ms
+Mergesort,100000,44 ms
+Sort de menor a mayor,100000,65 ms
+Sort de mayor a menor,100000,68 ms
+Multiplicación tradicional,100,26 ms
+Multiplicación optimizada,100,28 ms
+Multiplicación Strassen,100,616 ms
+-------------------Prueba 1-------------------
+Selection Sort,100000,22427 ms
+Quicksort,100000,25 ms
+Mergesort,100000,40 ms
+Sort de menor a mayor,100000,61 ms
+Sort de mayor a menor,100000,72 ms
+Multiplicación tradicional,100,23 ms
+Multiplicación optimizada,100,31 ms
+Multiplicación Strassen,100,586 ms
+-------------------Prueba 1-------------------
+Selection Sort,100000,22362 ms
+Quicksort,100000,24 ms
+Mergesort,100000,37 ms
+Sort de menor a mayor,100000,71 ms
+Sort de mayor a menor,100000,102 ms
+Multiplicación tradicional,100,41 ms
+Multiplicación optimizada,100,42 ms
+Multiplicación Strassen,100,686 ms
+-------------------Prueba 1-------------------
+Selection Sort,100000,22348 ms
+Quicksort,100000,26 ms
+Mergesort,100000,43 ms
+Sort de menor a mayor,100000,64 ms
+Sort de mayor a menor,100000,70 ms
+Multiplicación tradicional,100,30 ms
+Multiplicación optimizada,100,25 ms
+Multiplicación Strassen,100,666 ms
+-------------------Prueba 1-------------------
+Selection Sort,100000,22345 ms
+Quicksort,100000,30 ms
+Mergesort,100000,45 ms
+Sort de menor a mayor,100000,68 ms
+Sort de mayor a menor,100000,74 ms
+Multiplicación tradicional,100,48 ms
+Multiplicación optimizada,100,40 ms
+Multiplicación Strassen,100,680 ms
+-------------------Prueba 1-------------------
+Selection Sort,1000000,2230779 ms
+Quicksort,1000000,289 ms
+Mergesort,1000000,433 ms
+Sort de menor a mayor,1000000,684 ms
+Sort de mayor a menor,1000000,770 ms
+Multiplicación tradicional,100,35 ms
+Multiplicación optimizada,100,30 ms
+Multiplicación Strassen,100,600 ms
+-------------------Prueba 1-------------------
+Selection Sort,1000000,2292004 ms
+Quicksort,1000000,299 ms
+Mergesort,1000000,432 ms
+Sort de menor a mayor,1000000,702 ms
+Sort de mayor a menor,1000000,772 ms
+Multiplicación tradicional,100,37 ms
+Multiplicación optimizada,100,26 ms
+Multiplicación Strassen,100,607 ms
