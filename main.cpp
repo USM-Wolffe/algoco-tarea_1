@@ -66,7 +66,7 @@ vector<vector<int>> leer_matriz_csv(const string& filename) {
 
 void guardar_resultados_csv(const string& filename, const string& algoritmo, long duracion, int tamano) {
     ofstream file;
-    file.open(filename, ios::app); // Abrir en modo append para no sobreescribir
+    file.open(filename, ios::app);
     if (file.is_open()) {
         file << algoritmo << "," << tamano << "," << duracion << " ms" << endl;
         file.close();
@@ -74,23 +74,13 @@ void guardar_resultados_csv(const string& filename, const string& algoritmo, lon
         cerr << "No se pudo abrir el archivo para guardar los resultados." << endl;
     }
 }
-void funcionmasinutildelmundo(const string& filename){
-    ofstream file;
-    file.open(filename, ios::app);
-    if(file.is_open()){
-        file << "-------------------Prueba "<<contador_pruebas<<"-------------------"<<endl;
-         
-    }
-}
-
 
 
 
 // Función principal
 int main() {
-    funcionmasinutildelmundo("resultados_algoritmos.csv");
-    contador_pruebas++;
-    vector<int> lista = leer_lista_csv("data/lista_aleatoria_10**6.csv");
+    
+    vector<int> lista = leer_lista_csv("data/lista_inversamente_ordenada_500000.csv");
 
     // Prueba de Selection Sort
     int* copia_lista = new int[lista.size()];
@@ -142,7 +132,7 @@ int main() {
     auto duracion5 = duration_cast<milliseconds>(fin5 - inicio5).count();
     cout << "Sorting mayor a menor: " << duracion5 << " ms" << endl;
     guardar_resultados_csv("resultados_algoritmos.csv", "Sort de mayor a menor", duracion5, lista.size());
-
+/*
     // Prueba de multiplicación de matrices tradicional
     vector<vector<int>> A = leer_matriz_csv("data/matriz_aleatoria.csv");
     vector<vector<int>> B = leer_matriz_csv("data/matriz_aleatoria.csv");
@@ -167,6 +157,6 @@ int main() {
     auto duracion7 = duration_cast<milliseconds>(fin7 - inicio7).count();
     cout << "Multiplicación Strassen: " << duracion7 << " ms" << endl;
     guardar_resultados_csv("resultados_algoritmos.csv", "Multiplicación Strassen", duracion7, A.size());
-
+*/
     return 0;
 }
